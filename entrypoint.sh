@@ -62,7 +62,7 @@ echo "{
                 \"decryption\":\"none\"
             },
             \"streamSettings\":{
-                \"network\":\"ws\",
+                \"network\":\"tcp\",
                 \"security\":\"none\"
             }
         },
@@ -80,7 +80,7 @@ echo "{
                 \"decryption\":\"none\"
             },
             \"streamSettings\":{
-                \"network\":\"ws\",
+                \"network\":\"tcp\",
                 \"security\":\"none\",
                 \"wsSettings\":{
                     \"path\":\"/${WSPATH}-vless\"
@@ -108,7 +108,7 @@ echo "{
                 ]
             },
             \"streamSettings\":{
-                \"network\":\"ws\",
+                \"network\":\"tcp\",
                 \"wsSettings\":{
                     \"path\":\"/${WSPATH}-vmess\"
                 }
@@ -134,7 +134,7 @@ echo "{
                 ]
             },
             \"streamSettings\":{
-                \"network\":\"ws\",
+                \"network\":\"tcp\",
                 \"security\":\"none\",
                 \"wsSettings\":{
                     \"path\":\"/${WSPATH}-trojan\"
@@ -163,7 +163,7 @@ echo "{
                 \"decryption\":\"none\"
             },
             \"streamSettings\":{
-                \"network\":\"ws\",
+                \"network\":\"tcp\",
                 \"wsSettings\":{
                     \"path\":\"/${WSPATH}-shadowsocks\"
                 }
