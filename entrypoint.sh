@@ -82,7 +82,7 @@ echo "{
             \"streamSettings\":{
                 \"network\":\"tcp\",
                 \"security\":\"none\",
-                \"wsSettings\":{
+                \"tcpSettings\":{
                     \"path\":\"/${WSPATH}-vless\"
                 }
             },
@@ -109,7 +109,7 @@ echo "{
             },
             \"streamSettings\":{
                 \"network\":\"tcp\",
-                \"wsSettings\":{
+                \"tcpSettings\":{
                     \"path\":\"/${WSPATH}-vmess\"
                 }
             },
@@ -136,7 +136,7 @@ echo "{
             \"streamSettings\":{
                 \"network\":\"tcp\",
                 \"security\":\"none\",
-                \"wsSettings\":{
+                \"tcpSettings\":{
                     \"path\":\"/${WSPATH}-trojan\"
                 }
             },
@@ -164,7 +164,7 @@ echo "{
             },
             \"streamSettings\":{
                 \"network\":\"tcp\",
-                \"wsSettings\":{
+                \"tcpSettings\":{
                     \"path\":\"/${WSPATH}-shadowsocks\"
                 }
             },
